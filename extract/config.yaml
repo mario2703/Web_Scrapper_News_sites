@@ -1,0 +1,19 @@
+news_sites:
+  elnacional:
+    queries:
+      article_body: .detail-body p
+      article_title: .title
+      homepage_article_links: .title a
+    url: http://www.el-nacional.com/
+  dosmiluno:
+    queries:
+      article_body: .noticia_completa p
+      article_title: .titulo660
+      homepage_article_links: .titulo380
+    url: http://www.2001.com.ve/
+  eluniversal:
+    queries:
+      article_body: .note-text
+      article_title: .title
+      homepage_article_links: .title a
+    url: http://www.eluniversal.com/
